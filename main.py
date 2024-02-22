@@ -26,11 +26,9 @@ class MediumCrew:
         crew = Crew(
             agents=[
                 research_analyst_agent,
-                article_writer_agent
             ],
             tasks=[
                 research_analyst_task,
-                article_writer_task
                 
             ],
             verbose=True,

@@ -17,7 +17,7 @@ class MediumArticleAgents():
                 BrowserTools.scrape_and_summarize_website,
                 SearchTools.search_internet,
             ],
-            max_iter=3
+            max_iter=2
         )
     
     def article_outline_agent(self):
